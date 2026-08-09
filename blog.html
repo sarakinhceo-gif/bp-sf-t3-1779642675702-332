@@ -1,386 +1,384 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-noir-gold">
-    <title>화곡 셔츠룸 블로그 | 마포 AI 트렌드의 진실</title>
-    <meta name="description" content="화곡 셔츠룸, AI 트렌드가 만든 마포의 논쟁적 공간. 진짜 안목을 가진 자만이 이해할 수 있는 이유. 010-6279-0862.">
-    <meta name="keywords" content="화곡 셔츠룸, 마포 셔츠룸, AI 트렌드, 마포 유흥, 화곡 유흥, 셔츠룸 추천, 마포 가라오케, 화곡 술집, 노블레스 오블리주, 화곡 데이트">
-    <link rel="canonical" href="https://sf-t3-1779642675702-332.maphoshirts.xyz/blog.html">
-    <meta property="og:title" content="화곡 셔츠룸 블로그 | 마포 AI 트렌드의 진실">
-    <meta property="og:description" content="화곡 셔츠룸, AI 트렌드가 만든 마포의 논쟁적 공간. 진짜 안목을 가진 자만이 이해할 수 있는 이유. 010-6279-0862.">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://sf-t3-1779642675702-332.maphoshirts.xyz/blog.html">
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-            -webkit-font-smoothing: antialiased;
-        }
-        body {
-            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #0a0a0a;
-            color: #e0d5c1;
-            line-height: 1.8;
-            font-weight: 300;
-        }
-        a {
-            color: #d4af37;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: #f5e6a3;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        h1, h2, h3, h4 {
-            font-weight: 600;
-            letter-spacing: -0.02em;
-            color: #f5e6a3;
-        }
-        h1 {
-            font-size: 3.5rem;
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-        }
-        h2 {
-            font-size: 2.2rem;
-            margin-bottom: 1.2rem;
-            border-left: 4px solid #d4af37;
-            padding-left: 1rem;
-        }
-        h3 {
-            font-size: 1.6rem;
-            margin-bottom: 1rem;
-        }
-        p {
-            margin-bottom: 1.5rem;
-            font-size: 1.05rem;
-        }
-        .dropcap::first-letter {
-            font-size: 4rem;
-            float: left;
-            line-height: 1;
-            margin-right: 0.5rem;
-            color: #d4af37;
-            font-weight: 700;
-        }
-        header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(10, 10, 10, 0.95);
-            backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-            z-index: 1000;
-        }
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 24px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .nav-container .logo a {
-            font-size: 1.8rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            color: #f5e6a3;
-        }
-        .nav-container .logo a span {
-            color: #d4af37;
-        }
-        .nav-container nav {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-        .nav-container nav a {
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 400;
-            position: relative;
-        }
-        .nav-container nav a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 1px;
-            background: #d4af37;
-            transition: width 0.3s ease;
-        }
-        .nav-container nav a:hover::after {
-            width: 100%;
-        }
-        .hamburger-menu {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            padding: 5px;
-        }
-        .hamburger-menu span {
-            width: 28px;
-            height: 2px;
-            background: #d4af37;
-            margin: 4px 0;
-            transition: 0.3s;
-        }
-        .tel-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: linear-gradient(135deg, #d4af37, #b8962f);
-            color: #0a0a0a !important;
-            padding: 10px 24px;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-            letter-spacing: 0.5px;
-        }
-        .tel-link:hover {
-            background: linear-gradient(135deg, #f5e6a3, #d4af37);
-            transform: scale(1.05);
-            color: #0a0a0a !important;
-        }
-        @media (max-width: 768px) {
-            .hamburger-menu {
-                display: flex;
-            }
-            .nav-container nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                background: rgba(10, 10, 10, 0.98);
-                flex-direction: column;
-                padding: 2rem;
-                gap: 1.5rem;
-                border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-            }
-            .nav-container nav.active {
-                display: flex;
-            }
-            h1 {
-                font-size: 2.2rem;
-            }
-            h2 {
-                font-size: 1.6rem;
-            }
-            .container {
-                padding: 0 16px;
-            }
-        }
-        .hero-section {
-            padding: 160px 0 80px;
-            background: linear-gradient(180deg, #0a0a0a 0%, #141210 100%);
-            text-align: center;
-        }
-        .hero-section .subtitle {
-            font-size: 1.2rem;
-            color: #a09080;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-        }
-        .hero-section .hero-tag {
-            display: inline-block;
-            background: rgba(212, 175, 55, 0.15);
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            padding: 6px 20px;
-            border-radius: 50px;
-            font-size: 0.85rem;
-            color: #d4af37;
-            margin-bottom: 2rem;
-        }
-        .content-section {
-            padding: 80px 0;
-        }
-        .content-section.bg-dark {
-            background: #0d0d0b;
-        }
-        .article-card {
-            background: linear-gradient(145deg, #141210, #1a1815);
-            border: 1px solid rgba(212, 175, 55, 0.1);
-            border-radius: 20px;
-            padding: 3rem;
-            margin-bottom: 3rem;
-            position: relative;
-        }
-        .article-card::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #d4af37, transparent);
-        }
-        .article-card .meta {
-            display: flex;
-            gap: 1.5rem;
-            color: #a09080;
-            font-size: 0.9rem;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .article-card .meta span {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .article-card .quote-block {
-            border-left: 3px solid #d4af37;
-            padding-left: 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: #c0b090;
-            font-size: 1.2rem;
-        }
-        .article-card .highlight-box {
-            background: rgba(212, 175, 55, 0.05);
-            border: 1px solid rgba(212, 175, 55, 0.15);
-            border-radius: 12px;
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-        }
-        .article-card .highlight-box strong {
-            color: #d4af37;
-        }
-        .footer-section {
-            padding: 60px 0;
-            border-top: 1px solid rgba(212, 175, 55, 0.1);
-            text-align: center;
-            background: #080807;
-        }
-        .footer-section .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-bottom: 1.5rem;
-            flex-wrap: wrap;
-        }
-        .footer-section .footer-links a {
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .footer-section p {
-            color: #6a6050;
-            font-size: 0.85rem;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>화곡 셔츠룸 블로그 | 마포 AI 트렌드의 진실</title>
+ <meta name="description" content="화곡 셔츠룸, AI 트렌드가 만든 마포의 논쟁적 공간. 진짜 안목을 가진 자만이 이해할 수 있는 이유.">
+ <meta name="keywords" content="화곡 셔츠룸, 마포 셔츠룸, AI 트렌드, 마포 유흥, 화곡 유흥, 셔츠룸 추천, 마포 가라오케, 화곡 술집, 노블레스 오블리주, 화곡 데이트">
+ <link rel="canonical" href="https://sf-t3-1779642675702-332.maphoshirts.xyz/blog.html">
+ <meta property="og:title" content="화곡 셔츠룸 블로그 | 마포 AI 트렌드의 진실">
+ <meta property="og:description" content="화곡 셔츠룸, AI 트렌드가 만든 마포의 논쟁적 공간. 진짜 안목을 가진 자만이 이해할 수 있는 이유.">
+ <meta property="og:type" content="article">
+ <meta property="og:url" content="https://sf-t3-1779642675702-332.maphoshirts.xyz/blog.html">
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ scroll-behavior: smooth;
+ -webkit-font-smoothing: antialiased;
+ }
+ body {
+ font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+ background: #0a0a0a;
+ color: #e0d5c1;
+ line-height: 1.8;
+ font-weight: 300;
+ }
+ a {
+ color: #d4af37;
+ text-decoration: none;
+ transition: color 0.3s ease;
+ }
+ a:hover {
+ color: #f5e6a3;
+ }
+ img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ h1, h2, h3, h4 {
+ font-weight: 600;
+ letter-spacing: -0.02em;
+ color: #f5e6a3;
+ }
+ h1 {
+ font-size: 3.5rem;
+ line-height: 1.1;
+ margin-bottom: 1.5rem;
+ }
+ h2 {
+ font-size: 2.2rem;
+ margin-bottom: 1.2rem;
+ border-left: 4px solid #d4af37;
+ padding-left: 1rem;
+ }
+ h3 {
+ font-size: 1.6rem;
+ margin-bottom: 1rem;
+ }
+ p {
+ margin-bottom: 1.5rem;
+ font-size: 1.05rem;
+ }
+ .dropcap::first-letter {
+ font-size: 4rem;
+ float: left;
+ line-height: 1;
+ margin-right: 0.5rem;
+ color: #d4af37;
+ font-weight: 700;
+ }
+ header {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background: rgba(10, 10, 10, 0.95);
+ backdrop-filter: blur(20px);
+ border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+ z-index: 1000;
+ }
+ .nav-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem 24px;
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+ .nav-container .logo a {
+ font-size: 1.8rem;
+ font-weight: 700;
+ letter-spacing: 2px;
+ color: #f5e6a3;
+ }
+ .nav-container .logo a span {
+ color: #d4af37;
+ }
+ .nav-container nav {
+ display: flex;
+ gap: 2rem;
+ align-items: center;
+ }
+ .nav-container nav a {
+ font-size: 0.95rem;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-weight: 400;
+ position: relative;
+ }
+ .nav-container nav a::after {
+ content: '';
+ position: absolute;
+ bottom: -4px;
+ left: 0;
+ width: 0;
+ height: 1px;
+ background: #d4af37;
+ transition: width 0.3s ease;
+ }
+ .nav-container nav a:hover::after {
+ width: 100%;
+ }
+ .hamburger-menu {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ padding: 5px;
+ }
+ .hamburger-menu span {
+ width: 28px;
+ height: 2px;
+ background: #d4af37;
+ margin: 4px 0;
+ transition: 0.3s;
+ }
+ .tel-link {
+ display: inline-flex;
+ align-items: center;
+ gap: 8px;
+ background: linear-gradient(135deg, #d4af37, #b8962f);
+ color: #0a0a0a !important;
+ padding: 10px 24px;
+ border-radius: 50px;
+ font-weight: 600;
+ font-size: 0.95rem;
+ transition: all 0.3s ease;
+ letter-spacing: 0.5px;
+ }
+ .tel-link:hover {
+ background: linear-gradient(135deg, #f5e6a3, #d4af37);
+ transform: scale(1.05);
+ color: #0a0a0a !important;
+ }
+ @media (max-width: 768px) {
+ .hamburger-menu {
+ display: flex;
+ }
+ .nav-container nav {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ width: 100%;
+ background: rgba(10, 10, 10, 0.98);
+ flex-direction: column;
+ padding: 2rem;
+ gap: 1.5rem;
+ border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+ }
+ .nav-container nav.active {
+ display: flex;
+ }
+ h1 {
+ font-size: 2.2rem;
+ }
+ h2 {
+ font-size: 1.6rem;
+ }
+ .container {
+ padding: 0 16px;
+ }
+ }
+ .hero-section {
+ padding: 160px 0 80px;
+ background: linear-gradient(180deg, #0a0a0a 0%, #141210 100%);
+ text-align: center;
+ }
+ .hero-section .subtitle {
+ font-size: 1.2rem;
+ color: #a09080;
+ letter-spacing: 4px;
+ text-transform: uppercase;
+ margin-bottom: 1rem;
+ }
+ .hero-section .hero-tag {
+ display: inline-block;
+ background: rgba(212, 175, 55, 0.15);
+ border: 1px solid rgba(212, 175, 55, 0.3);
+ padding: 6px 20px;
+ border-radius: 50px;
+ font-size: 0.85rem;
+ color: #d4af37;
+ margin-bottom: 2rem;
+ }
+ .content-section {
+ padding: 80px 0;
+ }
+ .content-section.bg-dark {
+ background: #0d0d0b;
+ }
+ .article-card {
+ background: linear-gradient(145deg, #141210, #1a1815);
+ border: 1px solid rgba(212, 175, 55, 0.1);
+ border-radius: 20px;
+ padding: 3rem;
+ margin-bottom: 3rem;
+ position: relative;
+ }
+ .article-card::before {
+ content: '';
+ position: absolute;
+ top: -2px;
+ left: 0;
+ width: 100%;
+ height: 2px;
+ background: linear-gradient(90deg, transparent, #d4af37, transparent);
+ }
+ .article-card .meta {
+ display: flex;
+ gap: 1.5rem;
+ color: #a09080;
+ font-size: 0.9rem;
+ margin-bottom: 1.5rem;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ }
+ .article-card .meta span {
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ }
+ .article-card .quote-block {
+ border-left: 3px solid #d4af37;
+ padding-left: 1.5rem;
+ margin: 2rem 0;
+ font-style: italic;
+ color: #c0b090;
+ font-size: 1.2rem;
+ }
+ .article-card .highlight-box {
+ background: rgba(212, 175, 55, 0.05);
+ border: 1px solid rgba(212, 175, 55, 0.15);
+ border-radius: 12px;
+ padding: 1.5rem;
+ margin: 1.5rem 0;
+ }
+ .article-card .highlight-box strong {
+ color: #d4af37;
+ }
+ .footer-section {
+ padding: 60px 0;
+ border-top: 1px solid rgba(212, 175, 55, 0.1);
+ text-align: center;
+ background: #080807;
+ }
+ .footer-section .footer-links {
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+ margin-bottom: 1.5rem;
+ flex-wrap: wrap;
+ }
+ .footer-section .footer-links a {
+ font-size: 0.9rem;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ }
+ .footer-section p {
+ color: #6a6050;
+ font-size: 0.85rem;
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="nav-container">
-            <div class="logo">
-                <a href="/"><span>✦</span> NOBLESSE <span>OBLIGE</span></a>
-            </div>
-            <div class="hamburger-menu" onclick="this.classList.toggle('active'); document.querySelector('.nav-container nav').classList.toggle('active');">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav>
-                <a href="/">홈</a>
-                <a href="/about">소개</a>
-                <a href="/blog">블로그</a>
-                <a href="/gallery">갤러리</a>
-                <a href="/contact">문의</a>
-                <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="nav-container">
+ <div class="logo">
+ <a href="/"><span>✦</span> NOBLESSE <span>OBLIGE</span></a>
+ </div>
+ <div class="hamburger-menu" onclick="this.classList.toggle('active'); document.querySelector('.nav-container nav').classList.toggle('active');">
+ 
+ 
+ 
+ </div>
+ <nav>
+ <a href="/">홈</a>
+ <a href="/about">소개</a>
+ <a href="/blog">블로그</a>
+ <a href="/gallery">갤러리</a>
+ <a href="/contact">문의</a>
+ 
+ </nav>
+ </div>
+ </header>
 
 <main class="container">
-  <section class="hero-section">
-    <span class="hero-tag">BLOG · AI 트렌드</span>
-    <h1>화곡 셔츠룸 블로그 | 마포 AI 트렌드의 진실</h1>
-    <p class="subtitle">소상공인이 알아야 할 AI 관련 흐름을 실무 관점에서 정리했다.</p>
-    <p class="meta">카테고리: AI 트렌드 · 지역 정보 콘텐츠</p>
-  </section>
+ <section class="hero-section">
+ <span class="hero-tag">BLOG · AI 트렌드</span>
+ <h1>화곡 셔츠룸 블로그 | 마포 AI 트렌드의 진실</h1>
+ <p class="subtitle">소상공인이 알아야 할 AI 관련 흐름을 실무 관점에서 정리했다.</p>
+ <p class="meta">카테고리: AI 트렌드 · 지역 정보 콘텐츠</p>
+ </section>
 
-  <section class="content-section">
-    <p class="dropcap">최근 몇 년 사이 "AI"라는 단어는 대기업 연구소를 넘어 동네 상점과 서비스 업종의 일상 대화에도 등장하기 시작했다. 그러나 정작 AI 트렌드가 구체적으로 무엇을 의미하는지, 어떤 변화가 실제로 업무 방식에 영향을 주는지는 정리된 정보 없이 소문처럼 떠도는 경우가 많다. 이 글은 마포 지역을 포함한 소규모 사업장 운영자가 참고할 수 있도록, 흔히 언급되는 AI 관련 흐름을 개념 단위로 정리한다.</p>
-  </section>
+ <section class="content-section">
+ <p class="dropcap">최근 몇 년 사이 "AI"라는 단어는 대기업 연구소를 넘어 동네 상점과 서비스 업종의 일상 대화에도 등장하기 시작했다. 그러나 정작 AI 트렌드가 구체적으로 무엇을 의미하는지, 어떤 변화가 실제로 업무 방식에 영향을 주는지는 정리된 정보 없이 소문처럼 떠도는 경우가 많다. 이 글은 마포 지역을 포함한 소규모 사업장 운영자가 참고할 수 있도록, 흔히 언급되는 AI 관련 흐름을 개념 단위로 정리한다.</p>
+ </section>
 
-  <section class="content-section bg-dark">
-    <h2>자주 언급되는 AI 흐름 다섯 가지</h2>
-    <article class="article-card">
-      <h3>1. 생성형 콘텐츠 도구</h3>
-      <p>문서, 이미지, 짧은 홍보 문구 등을 초안 형태로 빠르게 만들어주는 도구가 늘었다. 다만 결과물은 사람이 검토하고 다듬는 과정을 거쳐야 실제 사용에 적합해진다.</p>
-    </article>
-    <article class="article-card">
-      <h3>2. 자동 응대 및 예약 보조</h3>
-      <p>문의 응답이나 예약 확인처럼 반복적인 커뮤니케이션 일부를 자동화하는 사례가 늘고 있다. 도입 범위는 업종과 문의 유형에 따라 달라진다.</p>
-    </article>
-    <article class="article-card">
-      <h3>3. 데이터 기반 의사결정</h3>
-      <p>매출이나 방문 패턴 같은 운영 데이터를 모아 경향을 파악하는 방식이 이전보다 접근하기 쉬워졌다. 다만 데이터의 양과 질이 충분하지 않으면 해석에 주의가 필요하다.</p>
-    </article>
-    <article class="article-card">
-      <h3>4. 업무 자동화 워크플로우</h3>
-      <p>반복되는 사무 처리(정산, 일정 조율, 알림 발송 등)를 서로 연결해 자동으로 흘러가게 만드는 구성이 확산되고 있다.</p>
-    </article>
-    <article class="article-card">
-      <h3>5. 개인화 추천</h3>
-      <p>이용자의 과거 행동을 참고해 맞춤 정보를 제시하는 방식으로, 온라인 채널을 운영하는 업체에서 점차 활용도가 넓어지는 영역이다.</p>
-    </article>
-  </section>
+ <section class="content-section bg-dark">
+ <h2>자주 언급되는 AI 흐름 다섯 가지</h2>
+ <article class="article-card">
+ <h3>1. 생성형 콘텐츠 도구</h3>
+ <p>문서, 이미지, 짧은 홍보 문구 등을 초안 형태로 빠르게 만들어주는 도구가 늘었다. 다만 결과물은 사람이 검토하고 다듬는 과정을 거쳐야 실제 사용에 적합해진다.</p>
+ </article>
+ <article class="article-card">
+ <h3>2. 자동 응대 및 예약 보조</h3>
+ <p>문의 응답이나 예약 확인처럼 반복적인 커뮤니케이션 일부를 자동화하는 사례가 늘고 있다. 도입 범위는 업종과 문의 유형에 따라 달라진다.</p>
+ </article>
+ <article class="article-card">
+ <h3>3. 데이터 기반 의사결정</h3>
+ <p>매출이나 방문 패턴 같은 운영 데이터를 모아 경향을 파악하는 방식이 이전보다 접근하기 쉬워졌다. 다만 데이터의 양과 질이 충분하지 않으면 해석에 주의가 필요하다.</p>
+ </article>
+ <article class="article-card">
+ <h3>4. 업무 자동화 워크플로우</h3>
+ <p>반복되는 사무 처리(정산, 일정 조율, 알림 발송 등)를 서로 연결해 자동으로 흘러가게 만드는 구성이 확산되고 있다.</p>
+ </article>
+ <article class="article-card">
+ <h3>5. 개인화 추천</h3>
+ <p>이용자의 과거 행동을 참고해 맞춤 정보를 제시하는 방식으로, 온라인 채널을 운영하는 업체에서 점차 활용도가 넓어지는 영역이다.</p>
+ </article>
+ </section>
 
-  <section class="content-section">
-    <h2>용어 정리</h2>
-    <ul>
-      <li><strong>알고리즘</strong> — 입력을 정해진 규칙에 따라 처리해 결과를 내는 절차.</li>
-      <li><strong>머신러닝</strong> — 데이터를 통해 규칙을 스스로 조정해가는 학습 방식.</li>
-      <li><strong>자동화</strong> — 사람이 반복 수행하던 작업을 시스템이 대신 처리하도록 구성하는 것.</li>
-      <li><strong>챗봇</strong> — 문자 대화 형태로 응답을 제공하는 프로그램.</li>
-      <li><strong>데이터 기반 의사결정</strong> — 직관이 아니라 수집된 자료를 근거로 판단하는 방식.</li>
-    </ul>
-  </section>
+ <section class="content-section">
+ <h2>용어 정리</h2>
+ <ul>
+ <li><strong>알고리즘</strong> — 입력을 정해진 규칙에 따라 처리해 결과를 내는 절차.</li>
+ <li><strong>머신러닝</strong> — 데이터를 통해 규칙을 스스로 조정해가는 학습 방식.</li>
+ <li><strong>자동화</strong> — 사람이 반복 수행하던 작업을 시스템이 대신 처리하도록 구성하는 것.</li>
+ <li><strong>챗봇</strong> — 문자 대화 형태로 응답을 제공하는 프로그램.</li>
+ <li><strong>데이터 기반 의사결정</strong> — 직관이 아니라 수집된 자료를 근거로 판단하는 방식.</li>
+ </ul>
+ </section>
 
-  <blockquote class="quote-block">새로운 도구는 그 자체로 목적이 될 수 없으며, 기존 업무를 더 명확하게 만드는 수단으로 검토할 때 의미가 있다.</blockquote>
+ <blockquote class="quote-block">새로운 도구는 그 자체로 목적이 될 수 없으며, 기존 업무를 더 명확하게 만드는 수단으로 검토할 때 의미가 있다.</blockquote>
 
-  <section class="content-section highlight-box">
-    <h2>도입 전 확인 체크리스트</h2>
-    <ul>
-      <li>해결하려는 문제가 구체적으로 정의되어 있는가</li>
-      <li>기존 업무 절차와 비교했을 때 어떤 부분이 달라지는가</li>
-      <li>담당자가 결과물을 검토하고 수정할 여유가 있는가</li>
-      <li>이용자 정보를 다룬다면 관련 규정을 확인했는가</li>
-      <li>도구 도입 후에도 사람이 최종 확인하는 절차가 남아 있는가</li>
-      <li>비용 대비 실제로 줄어드는 업무량이 명확한가</li>
-    </ul>
-  </section>
+ <section class="content-section highlight-box">
+ <h2>도입 전 확인 체크리스트</h2>
+ <ul>
+ <li>해결하려는 문제가 구체적으로 정의되어 있는가</li>
+ <li>기존 업무 절차와 비교했을 때 어떤 부분이 달라지는가</li>
+ <li>담당자가 결과물을 검토하고 수정할 여유가 있는가</li>
+ <li>이용자 정보를 다룬다면 관련 규정을 확인했는가</li>
+ <li>도구 도입 후에도 사람이 최종 확인하는 절차가 남아 있는가</li>
+ <li>비용 대비 실제로 줄어드는 업무량이 명확한가</li>
+ </ul>
+ </section>
 
-  <section class="content-section">
-    <h2>정리하며</h2>
-    <p>AI 관련 흐름은 계속 바뀌고 있으며, 모든 변화가 모든 업종에 동일하게 적용되지는 않는다. 중요한 것은 유행어를 따라가는 것이 아니라, 자신의 업무에서 실제로 반복되는 지점이 무엇인지 파악하고 그에 맞는 도구를 선별적으로 검토하는 태도다. 문의 사항은 아래 연락처로 확인할 수 있다.</p>
-    <p>문의: <a class="tel-link" href="tel:01062790862">010-6279-0862</a></p>
-  </section>
+ <section class="content-section">
+ <h2>정리하며</h2>
+ <p>AI 관련 흐름은 계속 바뀌고 있으며, 모든 변화가 모든 업종에 동일하게 적용되지는 않는다. 중요한 것은 유행어를 따라가는 것이 아니라, 자신의 업무에서 실제로 반복되는 지점이 무엇인지 파악하고 그에 맞는 도구를 선별적으로 검토하는 태도다. 문의 사항은 아래 연락처로 확인할 수 있다.</p>
+ <p>문의: </p>
+ </section>
 </main>
 
 
